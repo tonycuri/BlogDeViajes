@@ -84,10 +84,13 @@ p {
 
 /*Contenedores principales*/
 
+.contenido-principal {
+    margin-top: 40px;
+}
+
 .contenido-principal,
 .sidebar {
     padding: 20px;
-    margin-top: 40px;
 }
 
 @media (min-width: 768px) {
@@ -129,4 +132,30 @@ h2 {
 
 .entrada p {
     text-align: justify;
+}
+
+
+/*Sidebar*/
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+}
+
+.sidebar ul li:hover {
+    background-color: #00b8e4;
+}
+
+.sidebar ul li a {
+    color: #00b8e4;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sidebar ul li:hover a {
+    color: #ffffff;
 }
