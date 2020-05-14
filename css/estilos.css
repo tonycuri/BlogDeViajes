@@ -21,6 +21,23 @@ p {
     line-height: 2;
 }
 
+.boton {
+    background-color: #00b8e4;
+    padding: 10px 60px;
+    display: inline-block;
+    margin-top: 10px;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color .3s ease-in-out;
+}
+
+.boton:hover {
+    background-color: #015b72;
+}
+
 .site-header {
     padding: 20px 0;
 }
@@ -41,6 +58,7 @@ p {
 
 .barra {
     background-color: #db008d;
+    margin-top: 40px;
 }
 
 .navegacion-principal a {
@@ -69,6 +87,7 @@ p {
 .contenido-principal,
 .sidebar {
     padding: 20px;
+    margin-top: 40px;
 }
 
 @media (min-width: 768px) {
@@ -93,7 +112,7 @@ h2 {
 }
 
 .entrada {
-    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .entrada img {
